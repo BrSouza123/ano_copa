@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+<body>
+<script>
+        function pularlinha() {
+            document.write ("<br>");
+            document.write ("<br>");
+        }
+
+        function mostra(frase) {
+            document.write (frase);
+            pularlinha();
+        }
+
+        var limite = parseInt(prompt("Entre com a data limite"))
+        var anocopa = 1930;
+
+        while(anocopa <= limite) {
+            mostra("Teve copa em " + anocopa);
+            anocopa = anocopa + 4
+        }
+
+        mostra ("FIM!")
+
+</script>
+</body>
